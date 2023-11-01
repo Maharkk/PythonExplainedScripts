@@ -1,4 +1,4 @@
-# For loop
+# for loop
 
 # Printing numbers using range in a for loop
 for i in range(8):
@@ -39,10 +39,10 @@ for i in range(5):
 else:
     print("Loop completed without a 'break'")  # Output: Loop completed without a 'break'
 
-for j in range(3):
+for j in range(6):
     if j == 2:
         pass  # Placeholder, does nothing
-    print(j)  # Output: Prints numbers 0 to 2
+    print(j)  # Output: Prints numbers 0 to 5
 
 
 # Displaying list content using a for loop
