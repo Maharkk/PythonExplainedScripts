@@ -7,7 +7,7 @@
 # ‘rt’ will open for read in text mode
 
 
-# using open functionn to read content of a while
+# Reading file contents
 x = open("sample.txt", "r") # we can use single or double inverted comma's here
 #open is a built in function
 # by default its on "r" and ists not mandatory to mention id you want write or "w" then its mandatory
@@ -24,11 +24,13 @@ data = x.readline() # to print second line
 print(data)
 x.close
 
+# Writing to a file
 f = open("writingfile.txt", "w")
 f.write("here am writing a file ") # Can be called multiple times
 # am writing a file and without a file present at the stage but it will write and save in a new created file
 f.close()
 
+# Appending to a file
 f = open("writingfile.txt", "a")
 f.write("here am appending a file ") # if called multiple times it will append multiple times
 f.close()
